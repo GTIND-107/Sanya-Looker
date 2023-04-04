@@ -24,6 +24,7 @@ view: so_588_gender_2 {
     sql: ${TABLE}.visitors ;;
   }
 
+
   set: detail {
     fields: [line, gender, visitors]
   }

@@ -1,6 +1,7 @@
 connection: "dwenigma"
 
-include: "*.view"                # include all views in the views/ folder in this project
+include: "*.view"
+# include all views in the views
 
 
 explore: so_588_age{}

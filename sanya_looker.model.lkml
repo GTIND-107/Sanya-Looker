@@ -1,6 +1,6 @@
 connection: "dwenigma"
 
-include: "/views/*.view.lkml"                # include all views in the views/ folder in this project
+include: "*.view"                # include all views in the views/ folder in this project
 
 
 explore: so_588_age{}
@@ -12,3 +12,5 @@ explore: so_588_gender {}
 explore: so_588_audience {}
 
 explore: so_588_gender_2 {}
+
+explore: so_537_nationa_test {}

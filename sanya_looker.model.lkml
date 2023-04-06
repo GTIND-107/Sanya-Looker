@@ -15,3 +15,4 @@ explore: n_t_1 {}
 explore: v_t_1 {}
 explore: bg_visits_test_1 {}
 explore: bg_loc {}
+explore: bg_test {}

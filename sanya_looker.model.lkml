@@ -18,3 +18,4 @@ explore: bg_loc {}
 explore: bg_test {}
 
 explore: bg_auto_test_visit_1 {}
+explore: bg_auto_test_locations {}

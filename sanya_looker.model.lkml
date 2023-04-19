@@ -21,3 +21,4 @@ explore: bg_auto_test_visit_1 {}
 explore: bg_auto_test_locations {}
 explore: bg_auto_visits {}
 explore: bg_locations {}
+explore: national_locations_new {}

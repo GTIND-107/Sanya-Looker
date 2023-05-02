@@ -19,8 +19,8 @@ view: so_652_s1 {
     sql: ${TABLE}.competitor ;;
   }
 
-  measure: result {
-    type:sum
+  dimension: result {
+    type:string
     sql: ${TABLE}.result ;;
   }
 

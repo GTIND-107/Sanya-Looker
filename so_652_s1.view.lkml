@@ -21,8 +21,10 @@ view: so_652_s1 {
 
   dimension: result {
     type:number
-    sql: ${TABLE}.result ;;
+    sql: ${TABLE}.result;;
+  value_format: "0%"
   }
+
 
   set: detail {
     fields: [brand, competitor, result]

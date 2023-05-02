@@ -20,7 +20,7 @@ view: so_652_s1 {
   }
 
   dimension: result {
-    type:string
+    type:number
     sql: ${TABLE}.result ;;
   }
 

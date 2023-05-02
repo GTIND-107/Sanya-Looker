@@ -23,3 +23,6 @@ explore: bg_auto_visits {}
 explore: bg_locations {}
 explore: national_locations_new {}
 explore: national_visits_new {}
+
+#so_652
+explore: so_652_adt {}

@@ -31,3 +31,4 @@ explore: so_652_beh {}
 explore: so_652_ba {}
 explore: so_652_s1 {}
 explore: so_652_switcher_overall {}
+explore: so_652_vz {}

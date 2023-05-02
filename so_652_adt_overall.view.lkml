@@ -14,8 +14,8 @@ view: so_652_adt_overall {
     sql: ${TABLE}.brand ;;
   }
 
-  dimension: total {
-    type: number
+  measure: total {
+    type: sum
     sql: ${TABLE}.total ;;
   }
 

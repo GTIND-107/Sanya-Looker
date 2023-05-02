@@ -25,7 +25,7 @@ view: so_652_comp {
   }
 
   dimension: zip {
-    type: string
+    type: zipcode
     sql: ${TABLE}.zip ;;
   }
 

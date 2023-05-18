@@ -33,3 +33,6 @@ explore: so_652_s1 {}
 explore: so_652_switcher_overall {}
 explore: so_652_vz {}
 explore: so_652_comp {}
+
+#travel and tourism explores:
+explore: tnt_day_vs_overnight {}

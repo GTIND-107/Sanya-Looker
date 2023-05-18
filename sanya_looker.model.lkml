@@ -41,3 +41,4 @@ explore: tnt_income {}
 explore: tnt_age {}
 explore: tnt_gender {}
 explore: tnt_repeat_user {}
+explore: tnt_category {}

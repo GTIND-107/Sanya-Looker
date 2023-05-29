@@ -19,8 +19,8 @@ view: tnt_category {
     sql: ${TABLE}.tf ;;
   }
 
-  dimension: total {
-    type: number
+  measure: total_visitors {
+    type: sum
     sql: ${TABLE}.total ;;
   }
 
@@ -35,6 +35,6 @@ view: tnt_category {
   }
 
   set: detail {
-    fields: [name, tf, total, category, users]
+    fields: [name, tf,total_visitors, category, users]
   }
 }

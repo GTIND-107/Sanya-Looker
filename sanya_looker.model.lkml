@@ -43,3 +43,4 @@ explore: tnt_gender {}
 explore: tnt_repeat_user {}
 explore: tnt_category {}
 explore: tnt_top_stores {}
+explore: tnt_top_stores_map {}

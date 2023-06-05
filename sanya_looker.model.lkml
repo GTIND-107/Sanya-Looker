@@ -55,3 +55,4 @@ explore: so_703_age {}
 explore: so_703_hhi {}
 explore: so_703_gender {}
 explore: so_703_beh {}
+explore: cities {}

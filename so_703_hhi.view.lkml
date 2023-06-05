@@ -20,7 +20,7 @@ view: so_703_hhi {
   }
 
   measure: user {
-    type: number
+    type:sum
     sql: ${TABLE}."user" ;;
   }
 

@@ -47,3 +47,4 @@ explore: tnt_top_stores_map {}
 
 #so_703
 explore: so_703_home_state {}
+explore: so_703_top{}

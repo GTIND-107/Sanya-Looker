@@ -44,3 +44,6 @@ explore: tnt_repeat_user {}
 explore: tnt_category {}
 explore: tnt_top_stores {}
 explore: tnt_top_stores_map {}
+
+#so_703
+explore: so_703_home_state {}

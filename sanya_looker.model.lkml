@@ -49,3 +49,4 @@ explore: tnt_top_stores_map {}
 explore: so_703_home_state {}
 explore: so_703_top{}
 explore: so_703_do {}
+explore: so_703_cat {}

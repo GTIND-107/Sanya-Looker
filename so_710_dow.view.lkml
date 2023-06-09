@@ -14,8 +14,8 @@ view: so_710_dow {
     sql: ${TABLE}.day ;;
   }
 
-  dimension: visits {
-    type: number
+  measure: visits {
+    type: sum
     sql: ${TABLE}.visits ;;
   }
 

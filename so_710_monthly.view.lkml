@@ -19,6 +19,7 @@ view: so_710_monthly {
     sql: ${TABLE}.visits ;;
   }
 
+
   set: detail {
     fields: [mon, visits]
   }

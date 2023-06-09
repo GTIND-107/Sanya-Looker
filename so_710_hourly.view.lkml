@@ -9,6 +9,10 @@ view: so_710_hourly {
     drill_fields: [detail*]
   }
 
+  dimension: rank {
+    type: number
+    sql: ${TABLE}.rank ;;
+  }
   dimension: hour {
     type: string
     sql: ${TABLE}.hour ;;

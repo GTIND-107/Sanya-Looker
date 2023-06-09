@@ -19,8 +19,8 @@ view: so_710_hhi {
     sql: ${TABLE}.hhi ;;
   }
 
-  dimension: aud {
-    type: number
+  measure: aud {
+    type: sum
     sql: ${TABLE}.aud ;;
   }
 

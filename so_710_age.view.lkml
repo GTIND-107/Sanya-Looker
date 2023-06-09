@@ -19,8 +19,8 @@ view: so_710_age {
     sql: ${TABLE}.age ;;
   }
 
-  dimension: aud {
-    type: number
+ measure: aud {
+    type: sum
     sql: ${TABLE}.aud ;;
   }
 

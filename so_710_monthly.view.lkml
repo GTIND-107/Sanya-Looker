@@ -9,6 +9,10 @@ view: so_710_monthly {
     drill_fields: [detail*]
   }
 
+dimension: rank {
+  type: number
+  sql: ${TABLE}.rank ;;
+}
   dimension: mon {
     type: string
     sql: ${TABLE}.mon ;;

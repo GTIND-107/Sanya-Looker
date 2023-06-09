@@ -24,6 +24,7 @@ view: so_710_hhi {
     sql: ${TABLE}.aud ;;
   }
 
+
   set: detail {
     fields: [rank, hhi, aud]
   }

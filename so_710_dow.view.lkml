@@ -9,6 +9,11 @@ view: so_710_dow {
     drill_fields: [detail*]
   }
 
+  dimension: rank {
+    type: number
+    sql: ${TABLE}.rank ;;
+  }
+
   dimension: day {
     type: string
     sql: ${TABLE}.day ;;

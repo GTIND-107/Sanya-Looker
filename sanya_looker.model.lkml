@@ -61,3 +61,11 @@ explore: most_visited_brands {}
 #so-710
 explore: sp_710_top_stores {}
 explore: so_710_adt {}
+explore: so_710_weekly {}
+explore: so_710_monthly {}
+explore: so_710_hourly {}
+explore: so_710_dow {}
+explore: so_710_brand {}
+explore: ba {}
+explore: so_710_visit_zip {}
+explore: so_710_home_zip {}

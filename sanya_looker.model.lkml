@@ -60,3 +60,4 @@ explore: most_visited_brands {}
 
 #so-710
 explore: sp_710_top_stores {}
+explore: so_710_adt {}

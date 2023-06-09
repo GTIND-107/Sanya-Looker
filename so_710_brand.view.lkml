@@ -14,6 +14,7 @@ view: so_710_brand {
     sql: ${TABLE}.rank ;;
   }
 
+
   dimension: brand {
     type: string
     sql: ${TABLE}.brand ;;

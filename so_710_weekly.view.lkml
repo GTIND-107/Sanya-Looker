@@ -29,6 +29,7 @@ view: so_710_weekly {
     sql: ${TABLE}.visits ;;
   }
 
+
   set: detail {
     fields: [location,start_date, end_date, visits]
   }

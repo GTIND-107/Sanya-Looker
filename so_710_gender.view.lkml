@@ -9,6 +9,11 @@ view: so_710_gender {
     drill_fields: [detail*]
   }
 
+  dimension: location {
+    type: string
+    sql: ${TABLE}.location ;;
+  }
+
   dimension: gender {
     type: string
     sql: ${TABLE}.gender ;;

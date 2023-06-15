@@ -9,6 +9,11 @@ view: so_710_weekly {
     drill_fields: [detail*]
   }
 
+  dimension: location  {
+    type: string
+    sql: ${TABLE}.location ;;
+  }
+
   dimension: start_date {
     type: string
     sql: ${TABLE}.start_date ;;
@@ -25,6 +30,6 @@ view: so_710_weekly {
   }
 
   set: detail {
-    fields: [start_date, end_date, visits]
+    fields: [location,start_date, end_date, visits]
   }
 }

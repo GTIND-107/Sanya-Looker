@@ -14,6 +14,11 @@ view: sp_710_top_stores {
     sql: ${TABLE}.rank ;;
   }
 
+  dimension: location {
+    type: string
+    sql: ${TABLE}.location ;;
+  }
+
   dimension: brand {
     type: string
     sql: ${TABLE}.brand ;;
@@ -57,6 +62,7 @@ view: sp_710_top_stores {
   set: detail {
     fields: [
       rank,
+      location,
       brand,
       address,
       lat,

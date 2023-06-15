@@ -9,6 +9,11 @@ view: so_710_visit_zip {
     drill_fields: [detail*]
   }
 
+  dimension: location {
+    type: string
+    sql: ${TABLE}.location ;;
+  }
+
   dimension: rank {
     type: number
     sql: ${TABLE}.rank ;;

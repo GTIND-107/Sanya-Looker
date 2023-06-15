@@ -14,6 +14,11 @@ view: ba {
     sql: ${TABLE}.rank ;;
   }
 
+  dimension: location {
+    type: string
+    sql: ${TABLE}.location ;;
+  }
+
   dimension: ba {
     type: string
     sql: ${TABLE}.ba ;;

@@ -27,7 +27,7 @@ view: so_786_adt {
   }
 
   measure: audience {
-    type: int
+    type: sum
     sql: ${TABLE}.audience ;;
   }
 
@@ -35,6 +35,7 @@ view: so_786_adt {
     type: number
     sql: ${TABLE}.overall ;;
   }
+
 
   set: detail {
     fields: [

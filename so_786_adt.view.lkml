@@ -21,6 +21,10 @@ view: so_786_adt {
     sql: ${TABLE}.tf ;;
   }
 
+  dimension: num {
+    type: string
+    sql: ${TABLE}.num ;;
+  }
   dimension: range {
     type: string
     sql: ${TABLE}.range ;;

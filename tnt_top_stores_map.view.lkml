@@ -1,7 +1,7 @@
 view: tnt_top_stores_map {
   derived_table: {
-    sql: SELECT a.name,a.tf,a.poi_hash,a.company_name,a.address,a.latitude,a.longitude,a.city,a.state,visits,ROUND(avg(dwell_time),1) as avg_minutes FROM aditya.tnt_visits_per_poi a
-      INNER JOIN aditya.tnt_base_dwell b ON a.poi_hash = b.poi_hash and a.name = b.name and a.tf = b.tf
+    sql: SELECT a.name,a.tf,a.poi_hash,a.company_name,a.address,a.latitude,a.longitude,a.city,a.state,visits FROM aditya.tnt_visits_per_poi a
+      --INNER JOIN aditya.tnt_base_dwell b ON a.poi_hash = b.poi_hash and a.name = b.name and a.tf = b.tf
       GROUP BY 1,2,3,4,5,6,7,8,9,10
       ORDER BY visits desc
        ;;
@@ -62,10 +62,10 @@ view: tnt_top_stores_map {
     sql: ${TABLE}.visits ;;
   }
 
-  measure: avg_minutes {
-    type: sum
-    sql: ${TABLE}.avg_minutes ;;
-  }
+  # measure: avg_minutes {
+  #   type: sum
+  #   sql: ${TABLE}.avg_minutes ;;
+  # }
 
   dimension: location {
     type: location
@@ -85,7 +85,6 @@ view: tnt_top_stores_map {
       city,
       state,
       visits,
-      avg_minutes,
       location
     ]
   }

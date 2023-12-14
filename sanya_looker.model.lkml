@@ -75,3 +75,6 @@ explore: so_710_gender {}
 
 #so_786
 explore: so_786_adt {}
+
+#so-626
+explore: so_629_weekly_visits {}

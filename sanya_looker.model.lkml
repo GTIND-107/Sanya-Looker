@@ -44,6 +44,13 @@ explore: tnt_repeat_user {}
 explore: tnt_category {}
 explore: tnt_top_stores {}
 explore: tnt_top_stores_map {}
+explore: tnt_ba_total {
+  join: behaviours_dimension {
+    type: inner
+    sql_on: ${tnt_ba_total.ba}=${behaviours_dimension.ba_code} ;;
+    relationship: one_to_one
+    }
+    }
 
 #so_703
 explore: so_703_home_state {}

@@ -11,8 +11,8 @@ view: so_4643 {
   }
 
   dimension: visit_date {
-    type: string
-    sql: ${TABLE}.visit_date ;;
+    type: date
+    sql: CAST(${TABLE}.visit_date as date) ;;
   }
 
   dimension: poi_id {

@@ -14,8 +14,8 @@ view: so_4643_final {
   }
 
   dimension: adgroup_id {
-    type: number
-    sql: ${TABLE}."adgroup_id" ;;
+    type: string
+    sql: CAST(${TABLE}.adgroup_id as varchar) ;;
   }
 
   dimension: Visits {

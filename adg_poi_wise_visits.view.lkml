@@ -1,11 +1,11 @@
 view: adg_poi_wise_visits {
   derived_table: {
     sql:
-      SELECT DATE(timestamp) as visit_date, adgroup_id, poi_id, company_name || ': ' || CONCAT_ws(', ',address,state,city,zip) as address, SUM(visits) as visits
+      SELECT DATE(timestamp) as visit_date, adgroup_id, poi_id, company_name, CONCAT_ws(', ',address,state,city,zip) as address, SUM(visits) as visits
       FROM store_visitation_poi_summary_v2 a
       INNER JOIN footprints_businesses_dimension b ON a.poi_id = b.footprints_business_id
       WHERE  campaign_id = 1596046
-      GROUP BY 1,2,3,4
+      GROUP BY 1,2,3,4,5
     ;;
   }
 
@@ -18,8 +18,14 @@ view: adg_poi_wise_visits {
 
   dimension: adgroup_id {
     type: string
-    sql: ${TABLE}.adgroup_id ;;
+    sql: (${TABLE}.adgroup_id)::VARCHAR ;;
   }
+
+  dimension: company_name {
+    type: string
+    sql: ${TABLE}.company_name ;;
+  }
+
 
   dimension: poi_id {
     type: string
